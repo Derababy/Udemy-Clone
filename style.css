@@ -1,0 +1,705 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-width: 320px;
+    color: #1C1D1F;
+    background-color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    padding: 0px 24px;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.2);
+}
+.logo{
+    position: relative;
+    top: 20px;
+}
+.cate{
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+    top: 7px;
+}
+#check{
+    position: relative;
+    top: 7px;
+    left: 23px;
+    padding-left: 10px;
+}
+.glass{
+    position: relative;
+    right: 540px;
+    top: 15px;
+}
+input{
+    width: 570px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgb(250, 248, 248);
+}
+input::placeholder{
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    left: 35px;
+}
+#search{
+    width: 600px;
+    position: relative;
+    left: 176px;
+    bottom: 33px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(58, 39, 141);
+    cursor: pointer;
+}
+.bus{
+    font-size: 14px;
+    position: relative;
+    left: 794px;
+    bottom: 77px;
+}
+.teach{
+    font-size: 14px;
+    position: relative;
+    left: 812px;
+    bottom: 77px;
+}
+.cart{
+    font-size: 26px;
+    position: relative;
+    left: 828px;
+    bottom: 68px;
+}
+.log{
+    background-color: transparent;
+    border: 1px solid;
+    width: 80px;
+    height: 41px;
+    position: relative;
+    left: 846px;
+    bottom: 78px;
+}
+.up{
+    background-color: #1C1D1F;
+    color: #ffffff;
+    width: 80px;
+    height: 41px;
+    position: relative;
+    left: 850px;
+    bottom: 79px;
+}
+.web{
+    width: 41px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid;
+    position: relative;
+    left: 853px;
+    bottom: 74px;
+}
+.log:hover, .web:hover{
+    background-color: rgb(231, 229, 229);
+    cursor: pointer;
+}
+.log1{
+    font-weight: 800;    
+}
+.webs{
+    position: relative;
+    top: 2px;
+}
+.carousel{
+    height: 400px;
+    margin: 0px 3px 50px;
+}
+#banner-card{
+    width: 445px;
+    height: 180px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    bottom: 300px;
+    left: 76px;
+}
+.learn{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 31px;
+    font-weight: bold;
+    margin: 0px 0px 8px;
+    padding: 5px;
+}
+.smaller{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px 0px 0px 8px;
+}
+.prev{
+    background-color: #1C1D1F; 
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    width: 39px;
+    height: 39px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: left;
+    position: absolute;
+    bottom: 333px;
+    left: 17px;
+}
+.next{
+    background-color: #1C1D1F; 
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    width: 39px;
+    height: 39px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: right;
+    position: absolute;
+    bottom: 333px;
+    right: 17px;
+}
+.chevy{
+    color: #FFFFFF;
+    font-size: 24px;
+    position: relative;
+    top: 2px;
+}
+.mid{
+    height: 1345px;
+    padding: 0px 25px;
+}
+.title{
+    height: 85px;
+}
+.broad{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.from{
+    font-size: 20px;
+    margin: -7px 0px 0px 0px;   
+}
+.row{
+    height: 50px;
+    width: 784px;
+    display: flex;
+    justify-content: space-between;
+}
+.row-button{
+    padding: 8px 4px;
+    border: none;
+    background-color: #FFFFFF;
+}
+.but{
+    color: #6A6F73;
+    font-size: 16px;
+    font-weight: 700;
+}
+.but:hover{
+    color: #1C1D1F;
+}
+.board{
+    height: 540px;
+    width: 1290px;
+    border: 1px solid #6A6F73;
+    padding: 10px 30px;
+}
+.board-head{
+    font-size: 24px;
+}
+.board-text{
+    font-size: 17px;
+    margin-top: -10px;
+    padding-right: 200px;
+}
+.small-board{
+    width: 1228px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.button-explore{
+    padding: 0px 12px;
+    border: 1px solid #1C1D1F;
+    height: 40px;
+    width: 123px;
+    background-color: #FFFFFF
+}
+.but2{
+    font-size: 13px;
+    font-weight: 700;
+}
+.cards{
+    margin: 0 auto;
+    width: 1228px;
+    height: 275px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    position: relative;
+    bottom: 308px;
+    right: 5px;
+}
+.card{
+    transform-origin: 0.3s;
+}
+.card_image{
+    width: 100%;
+    border: 1px solid #D1D7DC;
+    display: block;
+}
+.head4{
+    font-size: 15px;
+    padding-top: 9px;
+}
+.content{
+    line-height: 1.1;
+    text-align: left;
+    margin-top: -20px;
+    height: 145px;
+}
+.author{
+    font-size: 12px;
+    color: #6A6F73;
+    margin-top: -12px;
+}
+.next-card{
+    background-color: #1C1D1F; 
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: right;
+    position: absolute;
+    bottom: 190px;
+    right: -20px;   
+}
+.next-card:hover, .next:hover, .prev:hover{
+    background-color: #313335;
+}
+.rating{
+    margin-top: -5px;
+}
+.rate1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 3px;
+    color: rgb(151, 103, 12);
+    position: relative;
+    bottom: 2px;
+    left: 3px;
+}
+.rate2{
+    font-size: 12px;
+    font-weight: 500;
+    color: #6A6F73;
+    position: relative;
+    bottom: 2px;
+}
+.price{
+    margin-top: -8px;
+}
+.props{
+    height: 170px;
+    width: 1348px;
+    position: relative;
+    bottom: 275px;
+    right: 25px;
+}
+.components{
+    background-color: #F7F9FA;
+    height: 110px;
+    position: relative;
+    top: 60px;
+}
+.inner-props{
+    height: 60px;
+    position: relative;
+    top: 26px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.circle{
+    background-color: #D1D7DC; 
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    width: 39px;
+    height: 39px;
+    float: left;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+.circle-sharp{
+    color: #1C1D1F;
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.circle-sharp1{
+    color: #1C1D1F;
+    font-size: 24px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.circle-sharp2{
+    color: #1C1D1F;
+    font-size: 21px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.value{
+    width: 300px;
+}
+.value-text{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 33px;
+    top: 7px;
+}
+.value1{
+    width: 330px;
+    position: relative;
+    left: 0px;
+}
+.value2{
+    width: 350px;
+    position: relative;
+    left: 0px;
+}
+.inner-mid{
+    height: 480px;
+    padding: 65px 0px;
+    position: relative;
+    bottom: 275px;
+}
+.bla{
+    height: 340px;
+}
+.view{
+    padding-bottom: 10px;
+}
+.cards-new{
+    margin: 0 auto; 
+    height: 290px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    position: relative;
+    bottom: 21px;
+}
+.best{
+    width: 70px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 6px;
+    background-color: rgb(222, 241, 109);
+    border: none;
+    position: relative;
+    bottom: 10px;
+}
+section{
+    height: 490px;
+    background-color: #F7F9FA;
+    margin-top: -19px;
+    padding: 44px 25px;
+}
+.feat{
+    margin-bottom: 24px;
+}
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 310px;
+}
+ul{
+    list-style-type: none;
+}
+.list{
+    display: inline-blocks;
+    width: 310px;
+    height: 268px;
+    vertical-align: middle;
+}
+.link{
+    text-decoration: underline;
+    color: #5624D0;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    right: 40px;
+}
+.list-head{
+    font-size: 20px;
+    margin-bottom: 7px;
+    position: relative;
+    bottom: 20px;
+    right: 40px;
+}
+.link2{
+    text-decoration: underline;
+    color: #5624D0; 
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    right: 40px;
+    top: 25px;
+}
+.link3{
+    text-decoration: underline;
+    color: #5624D0; 
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    right: 40px;
+    top: 52px;
+}
+.students{
+    font-size: 14px;
+    margin-top: 7px;
+    position: relative;
+    right: 40px;
+}
+.students2{
+    font-size: 14px;
+    margin-top: 8px;
+    position: relative;
+    right: 40px;
+    top: 25px;
+}
+.students3{
+    font-size: 14px;
+    margin-top: 8px;
+    position: relative;
+    right: 40px;
+    top: 52px;
+}
+.topics{
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    padding: 7px 5px;
+    position: relative;
+    bottom: 52px;
+}
+.under{
+    height: 530px;
+    padding: 50px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+.instructor{
+    position: relative;
+    right: 50px;
+    top: 16px;
+}
+.instruct-text{
+    width: 400px;
+    height: 300px;
+    float: right;
+    position: relative;
+    left: 45px;
+    top: 80px;
+}
+#texts1{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.texts2{
+    font-size: 19px;
+    margin: -15px 0px 17px 0px;
+}
+.up1{
+    background-color: #1C1D1F;
+    color: #ffffff;
+    width: 176px;
+    height: 45px;
+}
+.start{
+    font-size: 16px;
+    font-weight: 600;
+}
+.companies{
+    background-color: #F7F9FA;
+    height: 195px;
+    padding: 15px 38px;
+    text-align: center;
+}
+.trust{
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-size: 23px;
+    font-weight: 700;
+}
+.lead{
+    font-size: 16px;
+    font-weight: 400;
+}
+.logo-list{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-self: normal;
+    max-width: none;
+    padding-left: 0;
+    margin-top: 0;
+    list-style: none;
+}
+.company-logo{
+    justify-self: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+.under-second{
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+.instructor1{
+    position: relative;
+    left: 48px;
+    top: 44px;
+}
+.instruct-text1{
+    width: 400px;
+    height: 300px;
+    float: left;
+    position: relative;
+    right: 45px;
+    top: 150px;
+}
+.udemy-business{
+    width: 48%;
+    padding-bottom: 25px;
+}
+.start1{
+    font-size: 15px;
+    font-weight: 600;
+}
+.instructor2{
+    position: relative;
+    right: 50px;
+    top: 55px;
+}
+.instruct-text2{
+    width: 400px;
+    height: 300px;
+    float: right;
+    position: relative;
+    left: 45px;
+    top: 110px;
+}
+.under-third{
+    height: 550px;
+    padding: 5px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+.up2{
+    background-color: #1C1D1F;
+    color: #ffffff;
+    width: 119px;
+    height: 45px;
+}
+footer{
+    background-color: #1C1D1F;
+    color: #FFFFFF;
+    height: 290px;
+    padding: 24px 50px 0px 9px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.link-column{
+    list-style-type: none;
+    margin: 0;
+}
+.ul-link{
+    justify-content: flex-start;
+    text-align: left;
+    display: inline-flex;
+    width: 100%;
+    padding: 4px 0px;
+    cursor: pointer;
+    font-weight: 490;
+    line-height: 1.4;
+    font-size: 14px;
+    white-space: normal;
+}
+.ul-link:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.lang{
+    display: block;
+    margin-left: 19.0rem;
+}
+.lang-button{
+    border: 1px solid #FFFFFF;
+    height: 40px;
+    width: 140px;
+    color: #FFFFFF;
+    position: relative;
+    justify-content: flex-start;
+    display: inline-flex;
+    padding: 0px 16px;
+    background-color: transparent;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 16px;
+    cursor: pointer;
+}
+.lang-button:hover{
+    background-color: #2c2d30;
+}
+.lang-icon{
+    width: 19%;
+    margin-right: 5px;
+    display: inline-block;
+}
+.lang-text{
+    font-size: 16px;
+}
+.logo-copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 0px 0px 40px;
+}
+.copyright{
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+}
